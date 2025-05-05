@@ -13,7 +13,7 @@ function Login() {
   const navigate=useNavigate()
   const [loginData, setLoginData] = useState({
     email: "demo@campusconnect.com",
-    password: "$2b$10$pEzAJCeg.oZlG.ZOPq0KgOY90QXXDNihd3/cJxHgENLkVfN8UuCym"
+    password: "siddhesh21"
   });
   function handleLoginData(e) {
     setLoginData({ ...loginData, [e.target.name]: e.target.value })
