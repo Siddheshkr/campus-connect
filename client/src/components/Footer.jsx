@@ -13,7 +13,7 @@ export default function Footer() {
         </p>
       </aside>
 
-      <span className="flex flex-col gap-1">
+      {/* <span className="flex flex-col gap-1">
         <p className="font-semibold mb-1">Designed & Developed by</p>
         <div className="flex gap-2">
           <AvatarGroup className="" isBordered>
@@ -43,9 +43,9 @@ export default function Footer() {
             </a>
           </p>
         </div>
-      </span>
+      </span> */}
 
-      <span>
+      {/* <span>
         {" "}
         <p className=" font-semibold mb-1">Under the guidance of</p>
         <User
@@ -58,7 +58,7 @@ export default function Footer() {
           description="H.O.D. CSE"
           name="Prof. M.P. Singh"
         />{" "}
-      </span>
+      </span> */}
     </footer>
   );
 }
